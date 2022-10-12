@@ -4,6 +4,7 @@ name = 'Carl Jung'
 age = 66
 
 print('Hello, my name is ' + name + '.') #concatenation 
+print(f'Pleased to meet {name}')
 
 # long strings stretching to multiple lines 
 
@@ -43,4 +44,7 @@ print(f'{first_name} {last_name} is an amazing coach.')
 # string indices 
 print(first_name[3]) 
 
+# in keyword 
+book_title = 'Hitchhiker\'s Guide to The Galaxy'
 
+print('The' in book_title)

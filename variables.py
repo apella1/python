@@ -82,8 +82,9 @@ print(2 ** 2)
 
 PI = 3.14
 EARTH_GRAVITY = 9.765
+VISCOSITY = 99
 
-print(PI, EARTH_GRAVITY)
+print(PI, EARTH_GRAVITY, VISCOSITY)
 
 
 # Dunder Variables and Dunder Methods - double underscore - we should not try to change, modify or reassign such variables 
@@ -99,4 +100,4 @@ j = 9
 
 k += j # k = k + j
 
-print(k)
+print(k) 
