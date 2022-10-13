@@ -7,8 +7,8 @@ This is a multiline comment also known as docstring (used to define a function's
 
 
 """ 
-This is also a multiline comment. Both single and double line quotes can be used for that. 
-Variable naming rules apply. 
+This is also a multiline comment. Both single and double quotes can be used for that. 
+Variable naming rules apply - the rules are common across several programming languages except that each programming language has its own associated convention  
 Variable names can start with a letter or an underscore and not with a number
 Variable names are case sensitive 
 
@@ -51,6 +51,11 @@ print(type(y), y)
 z = float(y)
 
 print(type(z), z)
+
+item_price = 60
+p = float(item_price)
+
+print(p, type(p))
 
 # Few keywords to take note of 
 # variable declaration - defining the variable 

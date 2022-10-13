@@ -29,3 +29,36 @@ print(text.replace('script', 'program'))
 
 join_string = '-'.join(['Python', 'is', 'awesome'])
 print(join_string.lower())
+
+
+# a function is executed only when it's called
+
+def sayHello(name, age):
+    print(f'{name} is {age} years old')
+
+sayHello('Paul', 45)
+
+# setting defaults for functions 
+def jobSummary(position = 'doctor'):
+    print(f'Being a {position} is great.')
+
+jobSummary()
+
+jobSummary('software developer')
+
+
+# return values 
+# total is defined within the function's local scope 
+
+def getSum(num1, num2):
+    total = num1 + num2
+    return total
+
+print(getSum(3, 5))
+
+
+# lambda functions - similar to javascript's arrow functions 
+
+getProduct = lambda first_digit, second_digit : first_digit * second_digit
+
+print(getProduct(4, 6))
