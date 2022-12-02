@@ -1,8 +1,8 @@
-# works pretty much the same way just as in other programming languages 
+# works pretty much the same way just as in other programming languages
 
 num1 = 5
 num2 = 5
-number_sum = num1 + num2 
+number_sum = num1 + num2
 number_difference = abs(num1 - num2)
 difference = num1 - num2
 
@@ -13,7 +13,7 @@ elif number_sum == 10:
 else:
     print(f'{number_sum} is less than 10.')
 
-# using logical operators (and, or, not) - instead of nesting if statements within if statements 
+# using logical operators (and, or, not) - instead of nesting if statements within if statements
 print(number_difference)
 
 print(difference)
@@ -29,11 +29,11 @@ y = 5
 numbers = [1, 2, 3, 4, 5]
 
 if x in numbers:
-    print(x in numbers) # prints true or false 
+    print(x in numbers) # prints true or false
 elif x not in numbers:
     print(x not in numbers)
 
-# identity operators (is and is not) - is not works opposite to is 
+# identity operators (is and is not) - is not works opposite to is
 
 if x is y:
     print(x is y)

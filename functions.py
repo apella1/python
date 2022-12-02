@@ -1,18 +1,20 @@
-# ? what differentiates functions and methods 
+# ? what differentiates functions and methods
+# methods are functions within functions
 
 '''
 
-Built in functions - ends with the double brackets 
+Built in functions - ends with the double brackets
 abs, alter, all, any, anext, ascii, bin, bool, breakpoint, bytearray, bytes, callable, chr, classmethod, compile, complex
 delattr, dict, dir, divmod, enumerate, eval, exec, filter, float, format, frozenset, getattr, globals, hasattr, hash, help, hex
 id, input, int, isinstance, issubclass, iter, len, list, locals, map, max, memoryview, min, next
 object, oct, open, ord, pow, print, property, range, rpr, reversed, round, set, setattr, slice, sorted, staticmethod, str, sum, super, tuple, type, vars, zip
-_import_ 
+_import_
 
 '''
 
 
-# useful built-in functions 
+# useful built-in functions
+
 text = 'This is an amazing script'
 
 print(len(text))
@@ -38,7 +40,7 @@ def sayHello(name, age):
 
 sayHello('Paul', 45)
 
-# setting defaults for functions 
+# setting defaults for functions
 def jobSummary(position = 'doctor'):
     print(f'Being a {position} is great.')
 
@@ -47,8 +49,8 @@ jobSummary()
 jobSummary('software developer')
 
 
-# return values 
-# total is defined within the function's local scope 
+# return values
+# total is defined within the function's local scope
 
 def getSum(num1, num2):
     total = num1 + num2
@@ -57,8 +59,9 @@ def getSum(num1, num2):
 print(getSum(3, 5))
 
 
-# lambda functions - similar to javascript's arrow functions 
+# lambda functions - similar to javascript's arrow functions
 
 getProduct = lambda first_digit, second_digit : first_digit * second_digit
 
 print(getProduct(4, 6))
+
