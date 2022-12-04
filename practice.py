@@ -1,7 +1,9 @@
+import random
+
 age = 4
-my_list = [2, 5, 6, 7]  
+my_list = [2, 5, 6, 7]
 name = "John"
-color = "blue"
+color = "red"
 
 print("My name is " + name + " and I am " + str(age) + " years old.")
 
@@ -10,12 +12,11 @@ print("My name is " + name + " and I am " + str(age) + " years old.")
 
 # add two numbers with user input
 
-import random 
 
 print(random.randint(0, 9))
 
-# checking prime number 
-num = 11
+# checking prime number
+num = 30
 
 flag = False
 

@@ -1,6 +1,6 @@
 # lists are similar to arrays in js
 # lists - data structure
-# data structures allow us to store data in an organized container 
+# data structures allow us to store data in an organized container
 
 odd_numbers = [1, 3, 5, 7, 9]
 
@@ -17,12 +17,15 @@ print(type(odd_numbers), type(letters), type(number_letters))
 print(len(letters))
 
 
-#  list slicing - the sliced elements can be stored in a variable and doesn't affect the original list - how does this compare to javascript slice and splice array methods 
+#  list slicing - sliced elements can be stored in a variable
+# original list is not affected
+# how does this compare to javascript slice and splice array methods?
+
 print(letters[0:4])
 print(number_letters[2:3])
 print(odd_numbers[3:4])
 
-# we can also include the step size of the lists if we so desire 
+# we can also include the step size of the lists if we so desire
 
 even_numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
 

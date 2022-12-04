@@ -13,7 +13,7 @@ elif number_sum == 10:
 else:
     print(f'{number_sum} is less than 10.')
 
-# using logical operators (and, or, not) - instead of nesting if statements within if statements
+# using logical operators (and, or, not) - not nesting if statements
 print(number_difference)
 
 print(difference)
@@ -22,6 +22,8 @@ if number_difference > 0 and number_sum / 2 != num1:
     print(f'{num1} is not equal to {num2}')
 elif number_difference == 0 or number_sum / 2 == num1 or num2:
     print(f'{num1} is equal to {num2}')
+else:
+    print('End of conditional execution')
 
 # membership operators (not, not in)
 x = 5
@@ -39,3 +41,12 @@ if x is y:
     print(x is y)
 else:
     print(f'{x} is not equal to {y}')
+
+topNumber = 5
+
+while topNumber > 0:
+    print(topNumber)
+    topNumber = topNumber - 1
+print('Get out of here')
+
+
