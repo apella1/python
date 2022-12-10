@@ -48,5 +48,3 @@ while topNumber > 0:
     print(topNumber)
     topNumber = topNumber - 1
 print('Get out of here')
-
-

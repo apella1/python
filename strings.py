@@ -3,6 +3,9 @@
 name = 'Carl Jung'
 age = 66
 
+
+print(len(name))
+print(name[7])
 print('Hello, my name is ' + name + '.') #concatenation 
 print(f'Pleased to meet {name}')
 
@@ -48,3 +51,29 @@ print(first_name[3])
 book_title = 'Hitchhiker\'s Guide to The Galaxy'
 
 print('The' in book_title)
+
+
+# Looping through strings
+
+name = 'Prometheus'
+index = 0
+
+while index < len(name):
+    letter = name[index]
+    print(index, letter)
+    index = index + 1
+
+
+for ltr in name:
+    print(ltr)
+
+
+# finding the number of times a letter exists
+
+myLetter = 'e'
+letter_count = 0
+
+for lett in name:
+    if lett == myLetter:
+        letter_count = letter_count + 1
+print(letter_count)
