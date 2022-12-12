@@ -6,6 +6,8 @@ except:
     ival = -1
 
 if ival > 0:
-    print('Great choice')
+    print(f'{ival} was a great choice')
 else:
-    print('Not a number')
+    print(f'Not a number!')
+    new_number = input('Please enter a number: ')
+    ival = new_number
