@@ -1,13 +1,13 @@
-ival = input('Enter a numer: ')
+val = input('Enter a number: ')
 
 try:
-    ival = int(ival)
+    val = int(ival)
 except:
-    ival = -1
+    val = -1
 
-if ival > 0:
-    print(f'{ival} was a great choice')
+if val > 0:
+    print(f'{val} was a great choice')
 else:
     print(f'Not a number!')
     new_number = input('Please enter a number: ')
-    ival = new_number
+    val = new_number

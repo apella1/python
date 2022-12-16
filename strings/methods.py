@@ -41,3 +41,11 @@ print(end)
 
 host = data[email + 1: end]
 print(host)
+
+# Double splitting
+info = 'From collins.apella@students.ku.ac.ke Fri Jan 18 06:13:14 2022'
+pieces = info.split()
+email_addr = pieces[1]
+host = email_addr.split('@')
+hostname = host[1]
+print(hostname)

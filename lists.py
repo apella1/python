@@ -1,5 +1,3 @@
-# lists are similar to arrays in js
-# lists - data structure
 # data structures allow us to store data in an organized container
 
 odd_numbers = [1, 3, 5, 7, 9]
