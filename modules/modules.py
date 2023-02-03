@@ -10,3 +10,5 @@ def greetingApp(time, name):
 
 
 greetingApp(12, 'Malcolm')
+
+print("Hitchhiker")

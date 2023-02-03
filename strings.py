@@ -39,10 +39,10 @@ print(summary)
 
 
 # formatted strings 
-first_name = 'Freddie'
-last_name = 'Roach'
+first_name = 'Tony'
+last_name = 'Kariohki'
 
-print(f'{first_name} {last_name} is an amazing coach.')
+print(f'{first_name} {last_name} is an amazing mentor.')
 
 # string indices 
 print(first_name[3]) 
