@@ -1,7 +1,27 @@
-# Python Interactive Playground
-
-This is where I do all my Python practice.
+# Python
 
 ## Content Outline
 
-### Python Modules
+- Data types and Data structures
+- Variables
+- Conditional Execution
+- Loops
+- Modules
+- Dictionaries
+- Lists
+- Files
+
+### Data Types
+
+- Integer
+- Float
+- String
+
+### Data structures
+
+- Lists
+- Tuples
+
+### Dictionaries
+
+- Dictionaries hold key-value pairs

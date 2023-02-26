@@ -1,6 +1,6 @@
 counts = {}
 
-names = ['pete', 'jan', 'pete', 'pele', 'hade', 'man', 'pele', 'pete']
+names = ['pete', 'jade', 'jan', 'pete', 'pele', 'hade', 'man', 'pele', 'pete']
 
 for name in names:
     if name not in counts:
