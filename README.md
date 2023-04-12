@@ -13,6 +13,8 @@
 
 ### Data Types
 
+#### Numeric Data Types
+
 - Integer
 - Float
 - String
